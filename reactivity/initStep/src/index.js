@@ -23,3 +23,8 @@ resetButton.addEventListener("click", () => {
   counter = 0;
   renderCounter();
 });
+
+setInterval(() => {
+  counter += 1;
+  renderCounter();
+}, 1000);
